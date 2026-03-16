@@ -1,0 +1,71 @@
+2026-03-16 21:30:10,359 [INFO] ============================================================
+2026-03-16 21:30:10,362 [INFO] NTPF Data Downloader — Starting
+2026-03-16 21:30:10,362 [INFO] Downloading 32 files
+2026-03-16 21:30:10,362 [INFO] ============================================================
+2026-03-16 21:30:10,362 [INFO] Downloading: OP_Hospital_2026
+2026-03-16 21:30:11,512 [INFO] Saved: data/raw/OP_Hospital_2026.csv (11,771 bytes)
+2026-03-16 21:30:12,514 [INFO] Downloading: OP_Specialty_2026
+2026-03-16 21:30:13,663 [INFO] Saved: data/raw/OP_Specialty_2026.csv (10,778 bytes)
+2026-03-16 21:30:14,666 [INFO] Downloading: IPDC_Hospital_2026
+2026-03-16 21:30:15,768 [INFO] Saved: data/raw/IPDC_Hospital_2026.csv (9,671 bytes)
+2026-03-16 21:30:16,772 [INFO] Downloading: IPDC_Specialty_2026
+2026-03-16 21:30:17,662 [INFO] Saved: data/raw/IPDC_Specialty_2026.csv (5,729 bytes)
+2026-03-16 21:30:18,665 [INFO] Downloading: IPDC_AdultChild_2026
+2026-03-16 21:30:19,647 [INFO] Saved: data/raw/IPDC_AdultChild_2026.csv (15,422 bytes)
+2026-03-16 21:30:20,650 [INFO] Downloading: GI_Hospital_2026
+2026-03-16 21:30:21,470 [INFO] Saved: data/raw/GI_Hospital_2026.csv (4,967 bytes)
+2026-03-16 21:30:22,471 [INFO] Downloading: OP_Hospital_2025
+2026-03-16 21:30:23,808 [INFO] Saved: data/raw/OP_Hospital_2025.csv (68,966 bytes)
+2026-03-16 21:30:24,816 [INFO] Downloading: OP_Specialty_2025
+2026-03-16 21:30:25,950 [INFO] Saved: data/raw/OP_Specialty_2025.csv (58,205 bytes)
+2026-03-16 21:30:26,958 [INFO] Downloading: IPDC_Hospital_2025
+2026-03-16 21:30:27,918 [INFO] Saved: data/raw/IPDC_Hospital_2025.csv (56,531 bytes)
+2026-03-16 21:30:28,922 [INFO] Downloading: IPDC_Specialty_2025
+2026-03-16 21:30:30,191 [INFO] Saved: data/raw/IPDC_Specialty_2025.csv (33,805 bytes)
+2026-03-16 21:30:31,193 [INFO] Downloading: IPDC_AdultChild_2025
+2026-03-16 21:30:32,612 [INFO] Saved: data/raw/IPDC_AdultChild_2025.csv (90,219 bytes)
+2026-03-16 21:30:33,615 [INFO] Downloading: GI_Hospital_2025
+2026-03-16 21:30:34,845 [INFO] Saved: data/raw/GI_Hospital_2025.csv (28,800 bytes)
+2026-03-16 21:30:35,847 [INFO] Downloading: OP_Hospital_2024
+2026-03-16 21:30:36,895 [INFO] Saved: data/raw/OP_Hospital_2024.csv (68,934 bytes)
+2026-03-16 21:30:37,900 [INFO] Downloading: OP_Specialty_2024
+2026-03-16 21:30:38,960 [INFO] Saved: data/raw/OP_Specialty_2024.csv (56,342 bytes)
+2026-03-16 21:30:39,961 [INFO] Downloading: IPDC_Hospital_2024
+2026-03-16 21:30:41,209 [INFO] Saved: data/raw/IPDC_Hospital_2024.csv (53,935 bytes)
+2026-03-16 21:30:42,211 [INFO] Downloading: IPDC_Specialty_2024
+2026-03-16 21:30:43,467 [INFO] Saved: data/raw/IPDC_Specialty_2024.csv (34,214 bytes)
+2026-03-16 21:30:44,468 [INFO] Downloading: IPDC_AdultChild_2024
+2026-03-16 21:30:45,615 [INFO] Saved: data/raw/IPDC_AdultChild_2024.csv (89,399 bytes)
+2026-03-16 21:30:46,619 [INFO] Downloading: GI_Hospital_2024
+2026-03-16 21:30:47,649 [INFO] Saved: data/raw/GI_Hospital_2024.csv (28,360 bytes)
+2026-03-16 21:30:48,651 [INFO] Downloading: OP_Hospital_2023
+2026-03-16 21:30:49,852 [INFO] Saved: data/raw/OP_Hospital_2023.csv (68,119 bytes)
+2026-03-16 21:30:50,855 [INFO] Downloading: OP_Specialty_2023
+2026-03-16 21:30:52,062 [INFO] Saved: data/raw/OP_Specialty_2023.csv (60,483 bytes)
+2026-03-16 21:30:53,070 [INFO] Downloading: IPDC_Hospital_2023
+2026-03-16 21:30:54,213 [INFO] Saved: data/raw/IPDC_Hospital_2023.csv (48,651 bytes)
+2026-03-16 21:30:55,222 [INFO] Downloading: IPDC_Specialty_2023
+2026-03-16 21:30:56,569 [INFO] Saved: data/raw/IPDC_Specialty_2023.csv (35,867 bytes)
+2026-03-16 21:30:57,572 [INFO] Downloading: OP_Hospital_2022
+2026-03-16 21:30:58,822 [INFO] Saved: data/raw/OP_Hospital_2022.csv (67,888 bytes)
+2026-03-16 21:30:59,823 [INFO] Downloading: OP_Specialty_2022
+2026-03-16 21:31:01,002 [INFO] Saved: data/raw/OP_Specialty_2022.csv (62,991 bytes)
+2026-03-16 21:31:02,005 [INFO] Downloading: IPDC_Hospital_2022
+2026-03-16 21:31:02,908 [INFO] Saved: data/raw/IPDC_Hospital_2022.csv (49,418 bytes)
+2026-03-16 21:31:03,910 [INFO] Downloading: IPDC_Specialty_2022
+2026-03-16 21:31:04,939 [INFO] Saved: data/raw/IPDC_Specialty_2022.csv (36,874 bytes)
+2026-03-16 21:31:05,943 [INFO] Downloading: OP_Hospital_2021
+2026-03-16 21:31:06,987 [INFO] Saved: data/raw/OP_Hospital_2021.csv (45,008 bytes)
+2026-03-16 21:31:07,990 [INFO] Downloading: IPDC_Hospital_2021
+2026-03-16 21:31:09,033 [INFO] Saved: data/raw/IPDC_Hospital_2021.csv (33,717 bytes)
+2026-03-16 21:31:10,035 [INFO] Downloading: OP_Hospital_2020
+2026-03-16 21:31:11,316 [INFO] Saved: data/raw/OP_Hospital_2020.csv (10,067,272 bytes)
+2026-03-16 21:31:12,317 [INFO] Downloading: IPDC_Hospital_2020
+2026-03-16 21:31:14,045 [INFO] Saved: data/raw/IPDC_Hospital_2020.csv (7,616,041 bytes)
+2026-03-16 21:31:15,046 [INFO] Downloading: OP_Hospital_2019
+2026-03-16 21:31:17,856 [INFO] Saved: data/raw/OP_Hospital_2019.csv (9,855,513 bytes)
+2026-03-16 21:31:18,858 [INFO] Downloading: IPDC_Hospital_2019
+2026-03-16 21:31:19,887 [INFO] Saved: data/raw/IPDC_Hospital_2019.csv (6,971,257 bytes)
+2026-03-16 21:31:20,888 [INFO] ============================================================
+2026-03-16 21:31:20,888 [INFO] Download complete: 32 succeeded, 0 failed
+2026-03-16 21:31:20,888 [INFO] ============================================================

@@ -1,0 +1,45 @@
+2026-03-16 21:32:26,092 [INFO] ============================================================
+2026-03-16 21:32:26,092 [INFO] HSE Wait Times — Data Cleaning Pipeline
+2026-03-16 21:32:26,092 [INFO] ============================================================
+2026-03-16 21:32:26,095 [INFO] Found 32 raw files to process
+2026-03-16 21:32:26,096 [INFO] Loading Outpatient files...
+2026-03-16 21:32:28,516 [INFO] Loaded OP Hospital 2019: 80236 rows
+2026-03-16 21:32:30,501 [INFO] Loaded OP Hospital 2020: 85273 rows
+2026-03-16 21:32:30,510 [WARNING] No hospital column found in data/raw\OP_Hospital_2021.csv, skipping
+2026-03-16 21:32:30,517 [WARNING] No hospital column found in data/raw\OP_Hospital_2022.csv, skipping
+2026-03-16 21:32:30,539 [WARNING] No hospital column found in data/raw\OP_Hospital_2023.csv, skipping
+2026-03-16 21:32:30,550 [WARNING] No hospital column found in data/raw\OP_Hospital_2024.csv, skipping
+2026-03-16 21:32:30,560 [WARNING] No hospital column found in data/raw\OP_Hospital_2025.csv, skipping
+2026-03-16 21:32:30,566 [WARNING] No hospital column found in data/raw\OP_Hospital_2026.csv, skipping
+2026-03-16 21:32:30,709 [INFO] Total OP rows after merge: 165509
+2026-03-16 21:32:30,714 [INFO] Loading IPDC files...
+2026-03-16 21:32:30,909 [WARNING] No hospital column in data/raw\IPDC_Hospital_2019.csv, skipping
+2026-03-16 21:32:31,125 [WARNING] No hospital column in data/raw\IPDC_Hospital_2020.csv, skipping
+2026-03-16 21:32:31,137 [WARNING] No hospital column in data/raw\IPDC_Hospital_2021.csv, skipping
+2026-03-16 21:32:31,147 [WARNING] No hospital column in data/raw\IPDC_Hospital_2022.csv, skipping
+2026-03-16 21:32:31,154 [WARNING] No hospital column in data/raw\IPDC_Hospital_2023.csv, skipping
+2026-03-16 21:32:31,165 [WARNING] No hospital column in data/raw\IPDC_Hospital_2024.csv, skipping
+2026-03-16 21:32:31,172 [WARNING] No hospital column in data/raw\IPDC_Hospital_2025.csv, skipping
+2026-03-16 21:32:31,182 [WARNING] No hospital column in data/raw\IPDC_Hospital_2026.csv, skipping
+2026-03-16 21:32:31,183 [WARNING] No IPDC files loaded
+2026-03-16 21:32:31,185 [INFO] Loading Specialty files...
+2026-03-16 21:32:31,816 [INFO] Loaded Specialty Inpatient/Day Case 2022: 695 rows
+2026-03-16 21:32:32,396 [INFO] Loaded Specialty Inpatient/Day Case 2023: 672 rows
+2026-03-16 21:32:32,969 [INFO] Loaded Specialty Inpatient/Day Case 2024: 633 rows
+2026-03-16 21:32:33,478 [INFO] Loaded Specialty Inpatient/Day Case 2025: 621 rows
+2026-03-16 21:32:33,575 [INFO] Loaded Specialty Inpatient/Day Case 2026: 103 rows
+2026-03-16 21:32:34,412 [INFO] Loaded Specialty Outpatient 2022: 1056 rows
+2026-03-16 21:32:35,346 [INFO] Loaded Specialty Outpatient 2023: 1011 rows
+2026-03-16 21:32:36,143 [INFO] Loaded Specialty Outpatient 2024: 934 rows
+2026-03-16 21:32:36,991 [INFO] Loaded Specialty Outpatient 2025: 975 rows
+2026-03-16 21:32:37,143 [INFO] Loaded Specialty Outpatient 2026: 181 rows
+2026-03-16 21:32:37,150 [INFO] Total specialty rows after merge: 6881
+2026-03-16 21:32:38,163 [INFO] Saved op_waiting: 165509 rows
+2026-03-16 21:32:38,237 [INFO] Saved specialty_waiting: 6881 rows
+2026-03-16 21:32:40,374 [INFO] CSV files saved to data/processed/
+2026-03-16 21:32:40,374 [INFO] ============================================================
+2026-03-16 21:32:40,374 [INFO] Cleaning pipeline complete
+2026-03-16 21:32:40,375 [INFO]   Outpatient rows:         165,509
+2026-03-16 21:32:40,375 [INFO]   Inpatient/DC rows:       0
+2026-03-16 21:32:40,375 [INFO]   Specialty rows:          6,881
+2026-03-16 21:32:40,375 [INFO] ============================================================
