@@ -15,22 +15,22 @@ This project uses official NTPF open data — the same data used by RTÉ, the Ir
 ## Dashboard Screenshots
 
 **Overview and KPIs**
-![Overview](screenshots/Screenshot_2026-03-16_225706.png)
+![Overview](screenshots/Screenshot1.png)
 
 **National Waiting List Trend (2019–2026)**
-![National Trend](screenshots/Screenshot_2026-03-16_225742.png)
+![National Trend](screenshots/Screenshot2.png)
 
 **Hospital Performance — Volume and Long Wait %**
-![Hospital Performance](screenshots/Screenshot_2026-03-16_225759.png)
+![Hospital Performance](screenshots/Screenshot3.png)
 
 **Specialty Analysis — Orthopaedics, Dermatology, ENT Lead**
-![Specialty Analysis](screenshots/Screenshot_2026-03-16_225834.png)
+![Specialty Analysis](screenshots/Screenshot4.png)
 
 **Sláintecare Target Tracker**
-![Slaintecare](screenshots/Screenshot_2026-03-16_225909.png)
+![Slaintecare](screenshots/Screenshot5.png)
 
 **Browse All Data — Searchable by Hospital and Specialty**
-![Browse Data](screenshots/Screenshot_2026-03-16_225922.png)
+![Browse Data](screenshots/Screenshot6.png)
 
 ---
 
