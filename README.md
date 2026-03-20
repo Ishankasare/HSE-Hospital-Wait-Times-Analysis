@@ -1,14 +1,35 @@
 # 🏥 HSE Hospital Waiting List Analysis (2019–2026)
 
-**Python · SQL · Streamlit · Plotly · Power BI** | Real NTPF Open Data · 50+ Hospitals · Monthly Updates
+**Python · SQL · Streamlit · Power BI**  
+**End-to-End Analytics | 8 Years of Real Government Data | 50+ Hospitals**
 
 ---
 
 ## Why I Built This
 
-Over 911,500 people are currently on a public hospital waiting list in Ireland — the highest number ever recorded. I wanted to go beyond the headline and ask what the data actually shows: which hospitals are improving, which specialties are the real bottlenecks, and does spending more money actually help?
+Ireland spent **€437 million in 2024** to reduce hospital waiting lists.
 
-This project uses official NTPF open data — the same data used by RTÉ, the Irish Times, and the HSE itself — covering 8 years, 50+ hospitals, and monthly updates.
+**The result? The waiting list still grew by ~40,000 patients.**
+
+This project answers a critical question:
+
+> **Why is the system failing despite increased funding — and what actually needs to change?**
+
+Using 8 years of official NTPF data (2019–2026), I built a full analytics pipeline to identify:
+- Where the bottlenecks actually are
+- Which hospitals are improving vs failing
+- Why the system structurally cannot reduce waiting lists
+- What interventions would realistically fix the problem
+
+---
+
+## 🎯 Key Insight (TL;DR)
+
+> **Ireland doesn’t have a funding problem — it has a throughput problem.**
+
+Patients are entering the system faster than they are being treated.
+
+Until that imbalance is fixed, **waiting lists will continue to grow regardless of spending.**
 
 ---
 
@@ -74,48 +95,148 @@ Official Irish government open data published monthly by the National Treatment 
 
 ## Key Findings
 
-**1. COVID Created a False Improvement That Masked the Real Crisis**
-- Waiting lists appeared to fall in 2020–2021 — but this was not improvement
-- Elective referrals collapsed as hospitals focused on COVID and patients stopped going to GPs
-- When the system reopened, suppressed demand flooded back alongside 2 years of new cases
-- The post-COVID surge is the same structural problem, now fully visible
+## 🔍 Key Findings & Business Implications
 
-**2. €437 Million Spent in 2024 — Waiting List Still Grew by 40,400**
-- The government targeted a 6% reduction in 2024 with €437M allocated
-- The list grew by 40,400 in the first six months alone
-- This is a throughput problem, not just a funding problem — new referrals enter faster than patients are treated
-- Spending more money into a broken pipeline does not fix the pipeline
+### 1. The System Is Mathematically Failing
 
-**3. Orthopaedics, Dermatology, Ophthalmology and ENT Are Where the Crisis Lives**
-- These four specialties dominate waiting list volumes across every year in the dataset
-- High procedure volume, not life-threatening, but massive quality-of-life impact
-- A person waiting 3 years for a hip replacement or cataract surgery cannot work or live independently
-- The national waiting list crisis is concentrated in four under-resourced specialties
+- In 2024, **new patients added > patients treated**
+- Even with €437M funding, backlog increased
 
-**4. The Sláintecare Target Has Never Been Close to Being Met**
-- Sláintecare (2017) targeted no patient waiting more than 10 weeks for outpatient care
-- The 0–6 month band has never been remotely close to 100% across 8 years of data
-- The tracker shows most patients at any given point are beyond the target window
-- The target was set without a credible plan to deliver it
+👉 **Conclusion:**
+This is a **capacity imbalance**, not a budget issue.
 
-**5. Hospital Performance Varies Far More Than Headlines Suggest**
-- The national aggregate hides enormous variation at hospital level
-- Some hospitals have reduced their 12+ month cohort year on year — others have worsened
-- Size is not the determining factor — some large hospitals perform well, some small ones perform poorly
-- The SQL scorecard in this project ranks every hospital by year-on-year change
+👉 **What decision-makers should do:**
+- Track **monthly inflow vs outflow ratio** as a core KPI
+- Shift focus from “total waiting list” → **system throughput efficiency**
 
 ---
 
-## What Could Actually Fix This
+### 2. COVID Didn’t Improve the System — It Hid the Problem
 
-Based on the data, five interventions stand out as most likely to have real impact:
+- Waiting lists dropped in 2020–21
+- But this was due to **collapse in referrals**, not better performance
+- Post-COVID → demand surged + backlog exploded
 
-- **Specialty-specific action** — Orthopaedics, Dermatology, Ophthalmology and ENT account for a disproportionate share of total waiting. Targeted capacity expansion in these four areas would outperform spreading resources across all specialties equally
-- **GP-level triage reform** — Many outpatient referrals could be managed at primary care level with better GP resourcing and specialist telephone advice lines. Controlling the inflow is the only way to address demand
-- **Extended and weekend theatre use** — Many theatres run at low utilisation on Friday afternoons and are unused at weekends. Extending operating hours for high-volume procedures like cataracts and joint replacements increases throughput without new infrastructure
-- **Systematic NTPF referrals at 12 months** — Automatically triggering NTPF referrals when a patient crosses 12 months would specifically target the most urgent cohort. The mechanism exists but is applied inconsistently
-- **Public hospital throughput data** — NTPF publishes how many people are waiting but not how many are being treated each month or what cancellation rates look like. Publishing this would create accountability that currently does not exist
+👉 **Conclusion:**
+The system never improved — it was temporarily suppressed.
 
+👉 **What decision-makers should do:**
+- Avoid interpreting short-term improvements without **contextual drivers**
+- Build forecasting models based on **demand shocks**
+
+---
+
+### 3. 4 Specialties Drive the Entire Crisis
+
+- Orthopaedics, Ophthalmology, ENT, Dermatology dominate waiting lists
+- These are **high-volume, non-emergency procedures**
+
+👉 **Conclusion:**
+The “national crisis” is actually a **targetable bottleneck in 4 areas**
+
+👉 **What decision-makers should do:**
+- Allocate **specialty-specific budgets**, not general funding
+- Expand capacity specifically in these 4 specialties
+- Measure **wait time per specialty**, not just total volume
+
+---
+
+### 4. Funding Alone Has Diminishing Returns
+
+- €437M investment did not reduce backlog
+- Indicates inefficiency in **how resources are deployed**
+
+👉 **Conclusion:**
+Adding money to a constrained system ≠ improved output
+
+👉 **What decision-makers should do:**
+- Track **cost per treated patient**
+- Optimize **existing infrastructure before increasing funding**
+- Audit underutilised operating capacity
+
+---
+
+### 5. Hospital Performance Variation Is Massive
+
+- Some hospitals reduced long-wait cohorts
+- Others worsened despite similar constraints
+
+👉 **Conclusion:**
+Performance differences are driven by **operations, not size or funding**
+
+👉 **What decision-makers should do:**
+- Create **hospital-level performance benchmarks**
+- Replicate high-performing hospital strategies
+- Introduce accountability using **ranked performance dashboards**
+
+---
+
+### 6. Sláintecare Targets Were Never Realistic
+
+- Majority of patients consistently exceed target wait times
+- No year shows alignment with policy targets
+
+👉 **Conclusion:**
+Targets were set without matching system capacity
+
+👉 **What decision-makers should do:**
+- Redefine targets based on **real throughput capacity**
+- Introduce phased targets instead of fixed unrealistic benchmarks
+
+---
+
+## 🔮 Predictive Insights
+
+Based on 8 years of trend data:
+
+- If current inflow/outflow imbalance continues,
+  👉 Waiting lists will **continue growing year-on-year**
+
+- Even with increased funding,
+  👉 Backlog reduction will remain minimal without structural changes
+
+- High-volume specialties will continue to dominate,
+  👉 Unless targeted interventions are implemented
+
+👉 **Prediction:**
+Without intervention, the system will remain in a **permanent backlog state**
+
+
+## What Could Actually Fix This (Data-Driven Recommendations)
+ 
+
+### 1. Fix Throughput First
+- Increase treatment capacity before increasing funding
+- Track **patients treated per month per hospital**
+
+---
+
+### 2. Specialisation Strategy
+- Build dedicated surgical pipelines for:
+  - Orthopaedics
+  - Ophthalmology
+  - ENT
+- These 3–4 areas will deliver the highest ROI
+
+---
+
+### 3. Control Demand at Entry Point
+- Strengthen GP triage
+- Reduce unnecessary referrals into hospital system
+
+---
+
+### 4. Maximise Existing Infrastructure
+- Extend operating hours (evenings + weekends)
+- Increase utilisation of existing theatres
+
+---
+
+### 5. Introduce Performance Accountability
+- Rank hospitals by:
+  - Wait time reduction
+  - Long-wait cohort change
+- Use data to drive operational improvements
 ---
 
 ## Getting Started
@@ -167,11 +288,13 @@ HSE-Hospital-Wait-Times-Analysis/
 
 ## What I Learned
 
-- How to build a real pipeline from government open data — not a pre-cleaned Kaggle dataset
-- Handling 8 years of inconsistently formatted CSVs with changing column names and restructured hospital names
-- SQL window functions and CTEs on real time-series public health data to answer genuine policy questions
-- How to frame analysis as a business story — every chart in this dashboard has a "so what", not just a number
-- The difference between a data analyst and a data reporter is context: what the number means, why it happened, and what should be done about it
+- Ability to work with **messy, real-world government datasets**
+- - Handling 8 years of inconsistently formatted CSVs with changing column names and restructured hospital names
+- Building **end-to-end data pipelines** (ETL → SQL → Dashboard)
+- Translating data into **clear business decisions**
+- Identifying **system bottlenecks and inefficiencies**
+- Communicating insights to **non-technical stakeholders**
+
 
 ---
 
